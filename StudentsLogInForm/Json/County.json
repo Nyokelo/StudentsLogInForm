@@ -1,0 +1,29 @@
+
+  [
+    {
+      "Id": 1,
+      "Name": "Migori"
+    },
+    {
+      "Id": 2,
+      "Name": "Homa Bay"
+    },
+    {
+      "Id": 3,
+      "Name": "Kisumu"
+    },
+    {
+      "Id": 4,
+      "Name": "Siaya"
+    },
+    {
+      "Id": 5,
+      "Name": "Kisii"
+    },
+    {
+      "Id": 6,
+      "Name": "Nyamira"
+    }
+    
+
+  ]
