@@ -60,6 +60,7 @@ namespace StudentsLogInForm
             if (success)
             {
                 MessageBox.Show("student saved successfully", "save student", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CleanUI();
             }
         }
         private Student CreateStudent() => new Student {
@@ -71,6 +72,11 @@ namespace StudentsLogInForm
             LastName = txtLastName.Text.Trim(),
             MobileNumber = txtMobileNumber.Text.Trim()
         };
+        private void CleanUI()
+        {
+            txtAdmin.Clear(); comboCity.SelectedIndex = -1; comboGender.SelectedIndex = -1; txtFirstName.Clear();
+            txtLastName.Clear(); txtMobileNumber.Clear(); comboCounty.SelectedIndex = -1;
+        }
         private void comboGender_SelectedIndexChanged(object sender, EventArgs e)
         {
 
